@@ -1,0 +1,97 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form {
+  background-color: rgb(240, 240, 240);
+  padding: 42px;
+  border-radius: 10px;
+  border: 2px solid rgb(81, 81, 71)
+}
+.flex-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 14px;
+  font-weight: 500;
+}
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  width: 100%;
+
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #ecebeb;
+}
+.sign_button {
+  margin-left: 10px;
+  height: 30px;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+.plus {
+  background-color: rgb(5, 201, 5);
+}
+.minus {
+  background-color: rgb(189, 5, 5);
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  color: white
+}
+.submit {
+  background-color: rgb(118, 1, 154);
+}
+.edit {
+  background-color: rgb(0, 110, 157);
+  margin-right: 20px;
+}
+.delete {
+  background-color: rgb(189, 5, 5);
+}
+
+.error {
+  color: rgb(205, 0, 0);
+  font-size: 14px;
+}
+
+.no_record {
+  background-color: rgb(240, 240, 240);
+  width: 80%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
